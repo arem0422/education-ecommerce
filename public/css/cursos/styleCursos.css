@@ -1,0 +1,118 @@
+/*general*/
+* {
+    font-family: poppins;
+}
+/*cuerpo*/
+body{
+    background-color: #E5E5E5;
+}
+/*categoria*/
+.titulo{
+    margin-left: 115px;
+}
+.categorias{
+    margin-left: 140px;
+}
+
+.listCategorias .listado .list{
+    margin-left: 130px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+.linea{
+    width: 180px;
+    margin-left: 135px;
+}
+.listOrdenar .ordenar .orden{
+    margin-left: 130px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+/*cursos*/
+.products-list .product-item{
+    width: 340px;
+    height: 370px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #00000029;
+    border-radius: 14px;
+    opacity: 1;
+    line-height: 31px;
+}
+.products-list{
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.imgProducto{
+    width: 340px;
+    height: 230px;
+    border-top-left-radius: 14px;
+    object-fit: cover;
+    border-top-right-radius: 14px;
+}
+.nombre_curso {
+    text-decoration: none;
+    color: #343434;
+}
+.nombre_curso :hover{
+    color: #343434;
+}
+.nombre_curso h2{
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.nombreProfe h4{
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.precioDescuento{
+    float:left;
+    color: #DC2C20;
+    opacity: 0.5;
+}
+.precioDescuento h3{
+    font-size: 22px !important;
+    margin-left: 15px;
+    font-weight: 700 !important;
+    margin-right: 5px;
+    text-decoration:line-through;
+}
+.precioProducto{
+    color: #FF0000;
+}
+.precioProducto h3{
+    font-size: 22px !important;
+    margin-left: 15px;
+    font-weight: 700 !important;
+}
+
+.btnComprar:hover{
+    color: #343434 !important;
+}
+.btnComprar {
+    background-color: #f4d526 !important;
+    color: #343434;
+    border-radius: 8px !important;
+    margin-left: 14px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    bottom: 13px !important;
+    width: 314px !important;
+    display: block !important;
+    text-align: center;
+    height: 34px;
+    text-decoration: none;
+    font-weight: 550;
+    margin-top: 7px;
+}
+.btnComprartest{
+    margin-right: 5px;
+}

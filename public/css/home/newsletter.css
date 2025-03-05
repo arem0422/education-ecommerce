@@ -1,0 +1,12 @@
+input::placeholder {
+    font-size: 14px;
+    padding-left: 20px;
+    color: #474747;
+    font-weight: 500;
+}
+
+.newsletter-text {
+    height: 2.5rem;
+    padding-left: 20px !important;
+    box-shadow: 2px 4px 10px rgb(221, 221, 221) inset;
+}

@@ -1,0 +1,29 @@
+.card-Prod {
+    width: 20%;
+    border-radius: 14px;
+    padding: 0;
+}
+
+@media only screen and (max-width: 576px) {
+    .card-Prod {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .card-Prod {
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 990px) {
+    .card-Prod {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 1500px) {}

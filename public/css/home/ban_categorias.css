@@ -1,0 +1,129 @@
+.b_categorias {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.caja-categoria {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+.icon-categoria {
+    width: auto;
+    height: 70px;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.4));
+}
+
+
+/* ANIMACION BORDE BOTTOM  */
+
+a.border-anim {
+    position: relative;
+}
+
+a.border-anim:before {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 50%;
+    top: 98%;
+    content: ' ';
+    border-bottom: 0px solid rgb(210, 5, 98);
+}
+
+a.border-anim:hover:before {
+    animation: border-hover 0.3s ease-in-out 1 normal forwards;
+}
+
+@keyframes border-hover {
+    0% {
+        border-bottom: 0px solid rgb(210, 5, 98);
+    }
+    5% {
+        border-bottom: 3px solid rgb(131, 2, 60);
+    }
+    100% {
+        border-bottom: 3px solid rgb(210, 5, 98);
+        width: 98%;
+        left: 1%;
+        margin: 0;
+    }
+}
+
+
+/*FIN ANIMACION BORDE BOTTOM  */
+
+@media only screen and (max-width: 576px) {
+    .b_categorias {
+        background-position: left;
+        height: 400px;
+    }
+    .caja-categoria {
+        height: 100px;
+        width: 100px;
+    }
+    .icon-categoria {
+        width: auto;
+        height: 50px;
+    }
+    .text-categoria {
+        font-size: 10px !important;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .b_categorias {
+        height: 200px;
+        background-position: left;
+    }
+    .caja-categoria {
+        height: 100px;
+        width: 100px;
+    }
+    .icon-categoria {
+        width: auto;
+        height: 50px;
+    }
+    .text-categoria {
+        font-size: 10px !important;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    .banner-text {
+        font-size: 2.5rem !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .b_categorias {
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .caja-categoria {
+        height: 160px;
+        width: 160px;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    .icon-categoria {
+        width: auto;
+        height: 60px;
+    }
+    .text-categoria {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .banner-text {
+        font-size: 3.3rem !important;
+    }
+}

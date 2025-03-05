@@ -1,0 +1,66 @@
+.producto-carro {
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-pedido {
+    height: 50px;
+}
+
+.texto-productos {
+    font-size: calc(100%*.8) !important;
+}
+
+.texto-politicas {
+    font-size: calc(100%*.7) !important;
+}
+
+textarea::placeholder,
+input::placeholder {
+    font-size: 12px;
+    padding-left: 20px;
+    color: #474747;
+    font-weight: 500;
+}
+
+.form-check-input:checked {
+    background-color: #FCDC04 !important;
+    border-color: #FCDC04 !important;
+}
+
+#webpay {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+@media only screen and (max-width: 576px) {
+    .w-sm-25 {
+        width: 50% !important;
+    }
+    .producto-carro {
+        height: 215px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .fs-md-5 {
+        font-size: calc(100%*1.25) !important;
+    }
+    .w-md-50 {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 990px) {
+    /*   .producto-carro {
+        height: 200px;
+    } */
+}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 1500px) {}

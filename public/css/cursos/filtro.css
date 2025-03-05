@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #E5E5E5;
+}
+/*categoria*/
+.filtros {
+    display: grid;
+    flex-direction: column;
+    width: 200px;
+    margin: 2px;
+}
+.categorias {
+    font-weight: 600;
+}
+.categoriasO {
+    font-weight: 600;
+}
+.btnCat {
+    width: fit-content !important;
+    font-weight: 600;
+    border-radius: 10px !important;
+}
+.linea {
+    width: 230px;
+}
+.linea2 {
+    width: 100%;
+}
+.listOrdenar .ordenar .orden {
+    margin-left: 85px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+/* ---- button ---- */
+.button {
+    display: inline-block;
+    margin-bottom: 10px;
+    background: #E5E5E5;
+    border: none;
+    color: #222;
+    font-size: 16px;
+    text-align: left;
+}
+.button:active,
+.button.is-checked {
+    background-color: #F4D526;
+}
+/* ---- button-group ---- */
+.button-group:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.button-group .button {
+    float: left;
+    margin-left: 0;
+    margin-right: 1px;
+    height: 30px;
+}
+/* ---- isotope ---- */
+.grid {
+    height: 75%;
+    /* inherit height from body */
+}
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.product-item {
+    width: 30%;
+}
+@media only screen and (min-width: 1600px) {
+    .product-item {
+        width: 23%;
+    }
+}

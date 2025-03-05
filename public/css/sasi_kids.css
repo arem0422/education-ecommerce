@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.banner_kids {
+    height: 110vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+.card-sasi-kids {
+    position: relative;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+}
+
+ .card-img {
+	 width: 100%;
+	 min-height: 100%;
+	 transition: 0.2s;
+	 border: 0;
+	 border-radius: 0;
+}
+
+ .card-hover-textBg {
+	 overflow: hidden;
+/* 	 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9); */
+	 position: relative;
+}
+ .card-hover-textBg .card-body {
+	 position: absolute;
+	 left: 0;
+	 right: 0;
+	 bottom: 0;
+	 top: 0;
+	 background: rgba(255, 255, 255, .9);
+	 opacity: 0;
+	 transition: 0.2s;
+	 transform: translateY(100%);
+}
+/*  .card-hover-textBg:hover, .card-hover-textBg:focus, .card-hover-textBg:active {
+	 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+} */
+ .card-hover-textBg:hover .card-img, .card-hover-textBg:focus .card-img, .card-hover-textBg:active .card-img {
+	 filter: blur(3px);
+	 transform: scale(1.2);
+}
+ .card-hover-textBg:hover .card-body, .card-hover-textBg:focus .card-body, .card-hover-textBg:active .card-body {
+	 transition-delay: 0.1s;
+	 opacity: 1;
+	 transform: none;
+}
+ .card-hover-minCard {
+	 overflow: hidden;
+/* 	 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8); */
+	 position: relative;
+}
+ .card-hover-minCard .card-body {
+	 position: absolute;
+	 left: 0.5rem;
+	 right: 0.5rem;
+	 bottom: 0.5rem;
+	 top: 1rem;
+	 background: #fff;
+	 opacity: 0;
+	 transition: 0.2s;
+	 transform: translateY(-50%);
+	 transform: rotateX(90deg);
+	 overflow: hidden;
+}
+
+ .cord-hover-flip {
+	 background-color: transparent;
+	 position: relative;
+	 overflow: hidden;
+	 transform-style: preserve-3d;
+}
+ .cord-hover-flip .card-img, .cord-hover-flip .card-body {
+	 transition: 0.9s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	 transform-style: preserve-3d;
+	 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+}
+ .cord-hover-flip .card-img {
+	 transform: translateZ(60px);
+	 opacity: 1;
+}
+ .cord-hover-flip .card-body {
+	 position: absolute;
+	 left: 0;
+	 right: 0;
+	 top: 0;
+	 bottom: 0;
+	 transform: translateZ(40px);
+	 background-color: #fff;
+	 z-index: -1;
+	 transform: rotateY(180deg);
+	 overflow: hidden;
+}
+ .cord-hover-flip:hover .card-img, .cord-hover-flip:focus .card-img, .cord-hover-flip:active .card-img {
+	 transform: rotateY(180deg);
+	 opacity: 0;
+}
+ .cord-hover-flip:hover .card-body, .cord-hover-flip:focus .card-body, .cord-hover-flip:active .card-body {
+	 transform: rotateY(180deg);
+	 transform: translateZ(40px);
+	 z-index: 1;
+}
+
+ .cord-hover-rotate {
+	 background-color: #222;
+	 position: relative;
+	 overflow: hidden;
+}
+ .cord-hover-rotate .card-img, .cord-hover-rotate .card-body {
+	 transition: 0.9s cubic-bezier(0.68, -0.2, 0.265, 1.55);
+}
+ .cord-hover-rotate .card-img {
+	 opacity: 1;
+	 transform-origin: right bottom;
+	 transform: rotate(0deg);
+}
+ .cord-hover-rotate .card-body {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 bottom: 0;
+	 background-color: #fff;
+	 z-index: 1;
+	 opacity: 0;
+	 transform-origin: left bottom;
+	 transform: rotate(-90deg);
+}
+ .cord-hover-rotate:hover .card-img, .cord-hover-rotate:focus .card-img, .cord-hover-rotate:active .card-img {
+	 opacity: 0;
+	 transform: rotate(90deg);
+}
+ .cord-hover-rotate:hover .card-body, .cord-hover-rotate:focus .card-body, .cord-hover-rotate:active .card-body {
+	 transition-delay: 0.2s;
+	 opacity: 1;
+	 transform: rotate(0deg);
+}
+
+
+@media only screen and (max-width: 576px) {
+    .card-sasi-kids {
+        height: 60vh;
+    }
+    .logo-sasi_kids {
+        top: -55px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .card-sasi-kids {
+        height: 50vh;
+    }
+    .logo-sasi_kids {
+        top: -50px;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .card-sasi-kids {
+        height: 40vh;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .card-sasi-kids {
+        height: 70vh;
+    }
+    .logo-sasi_kids {
+        top: -70px;
+    }
+
+}

@@ -1,0 +1,73 @@
+body {
+    background-color: #E5E5E5;
+}
+.opacidad-05{
+    opacity: 0.75;
+}
+.descripcionP {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}
+.dirigidoP {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 8;
+}
+.mt-10{
+    margin-top: 18%;
+}
+.descripcionVideo{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+.comprarCurso{
+    background-color:  #ffffff;
+    margin-left: 35px;
+    margin-bottom: 35px;
+    box-shadow: 0px 5px 10px #b3b3b3;
+    border-radius: 14px;
+    opacity: 1;
+    line-height: 31px;
+    height: 23rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 7rem;
+}
+.value{
+   color: var(--bs-primario);
+}
+.img-profesor{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .curso{
+        overflow: auto !important;
+    }
+    .informacion-curso{
+        position: relative !important;
+    }
+    .contenedor-descripcion{
+        width: 100% !important;
+    }
+    .descripcionP{
+        color: #474747 !important;
+    }
+    #text-cambio1, #text-cambio2{
+        color: #474747 !important;
+    }
+    .mt-10{
+        margin-top: 5%;
+    }
+}

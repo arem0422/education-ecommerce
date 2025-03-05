@@ -1,0 +1,29 @@
+.card-suscripcion {
+    border-radius: 20px;
+    border: 4px solid rgb(252 220 4);
+    height: 530px;
+}
+
+@media only screen and (max-width: 576px) {
+    .sasi-bot {
+        width: 80%;
+        left: 10%;
+        top: 18%;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .sasi-bot {
+        width: 70%;
+        left: 15%;
+        top: 3%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .sasi-bot {
+        width: 65%;
+        left: 24%;
+        top: 9%;
+    }
+}

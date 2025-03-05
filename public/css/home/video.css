@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.video-text {
+    color: #474747 !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600 !important;
+}
+
+.play {
+    transform: scale(1);
+    animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.85);
+    }
+    70% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.85);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .fondo_video {
+        width: 100%;
+    }
+    .notebook {
+        left: 0%;
+    }
+    .celular {
+        left: 0%;
+        width: 88% !important;
+    }
+    .video_sasi {
+        width: 68%;
+        left: 16%;
+        top: 16%;
+    }
+    .video_poster {
+        width: 68%;
+        left: 16%;
+        top: 13%;
+    }
+    .play_boton {
+        left: 45%;
+        top: 0%;
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .fondo_video {
+        width: 90%;
+    }
+    .notebook {
+        left: 0%;
+        /* top: 20%; */
+    }
+    .celular {
+        left: 10%;
+    }
+    .video_sasi {
+        width: 68%;
+        left: 16%;
+        top: 17%;
+    }
+    .video_poster {
+        width: 68%;
+        left: 16%;
+        top: 14%;
+    }
+    .play_boton {
+        left: 42%;
+        top: 20%;
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .fondo_video {
+        width: 100%;
+    }
+    .notebook {
+        left: 5%;
+        /* top: 20%; */
+    }
+    .celular {
+        left: 15%;
+    }
+    .video_sasi {
+        width: 68%;
+        left: 21%;
+        top: 25%;
+    }
+    .video_poster {
+        width: 68%;
+        left: 21%;
+        top: 22%;
+    }
+    .play_boton {
+        left: 47%;
+        top: 25%;
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .video_sasi {
+        width: 68%;
+        left: 21%;
+        top: 20%;
+    }
+    .video_poster {
+        width: 68%;
+        left: 21%;
+        top: 19%;
+    }
+    .play_boton {
+        left: 47%;
+        top: 29%;
+        width: 15%;
+    }
+
+}
+
+

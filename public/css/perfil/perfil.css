@@ -1,0 +1,63 @@
+.img-perfil {
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.boton-foto {
+    color: #474747;
+    border-color: #474747 !important;
+    top: 10%;
+    left: 80%;
+}
+
+.boton-foto:hover {
+    color: white;
+    border-color: white !important;
+}
+
+.descripcion-curso {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+.img-curso {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.is-checked {
+    background-color: #efd100!important;
+}
+
+@media only screen and (max-width: 576px) {
+    .img-curso {
+        height: 215px;
+    }
+    .descripcion-curso {
+        -webkit-line-clamp: 3;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .img-curso {
+        height: 230px;
+    }
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 990px) {
+    /*   .img-curso {
+        height: 200px;
+    } */
+}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 1500px) {}

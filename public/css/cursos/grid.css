@@ -1,0 +1,364 @@
+/*-----cursos css---*/
+
+
+/*general*/
+
+
+/*cursos*/
+
+.product-item {
+    margin-left: 35px;
+    margin-bottom: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #00000029;
+    border-radius: 14px;
+    opacity: 1;
+    line-height: 31px;
+}
+
+.filtros {
+    display: grid;
+    flex-direction: column;
+    width: 200px;
+    margin: 2px;
+    margin-left: 110px;
+}
+
+.rounded-4 {
+    border-radius: 1.1rem!important;
+}
+
+.hover-outer {
+    opacity: 0;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.hover-outer:hover {
+    opacity: 1;
+}
+
+.modalVideo {
+    opacity: 1;
+}
+
+.hover-inner {
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+    line-height: 1.4;
+    max-height: 80%;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.icon-play {
+    color: white;
+}
+
+.linkVideo {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    border-radius: 4px;
+    line-height: 38px;
+    overflow: visible;
+    font-size: 16px;
+    background-color: transparent;
+    left: 43% !important;
+    top: 40% !important;
+}
+
+.descripcionProducto {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.fs-8 {
+    font-size: calc(100%*.8) !important;
+}
+
+.fs-9 {
+    font-size: calc(100%*.7) !important;
+}
+
+.bg-graf {
+    background-color: #474747 !important;
+}
+
+.btn-carro:hover {
+    background-color: #474747 !important;
+    color: #f4d526 !important;
+}
+
+.btn-carro {
+    background-color: #f4d526 !important;
+    color: #fff !important;
+}
+
+.play {
+    transform: scale(1);
+    animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.85);
+    }
+    70% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.85);
+    }
+}
+
+.products-list {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgProducto,
+.imgProducto-2 {
+    /*     width: 340px;*/
+    /* height: 230px; */
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.gridProd {
+    background-color: #343434 !important;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.nombre_curso {
+    text-decoration: none;
+    color: #343434;
+}
+
+.nombre_curso :hover {
+    color: #343434;
+}
+
+.nombre_curso h2 {
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.nombreProfe h4 {
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.precioDescuento {
+    float: left;
+    color: var(--bs-primario);
+    opacity: 0.5;
+}
+
+.precioDescuento h3 {
+    font-size: 18px !important;
+    margin-left: 15px;
+    font-weight: 700 !important;
+    margin-right: 5px;
+    /*   text-decoration:line-through; */
+}
+
+.precioProducto {
+    color: var(--bs-primario);
+}
+
+.precioProducto h3 {
+    font-size: 18px !important;
+    margin-left: 15px;
+    font-weight: 700 !important;
+}
+
+.btnComprar:hover {
+    color: #343434 !important;
+}
+
+.btnComprar {
+    color: #343434;
+    border-radius: 8px !important;
+    margin-left: 14px;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    bottom: 13px !important;
+    /* display: block !important; */
+    text-align: center;
+    /* height: 34px; */
+    text-decoration: none;
+    font-weight: 550;
+    /* margin-top: 15px !important; */
+}
+
+.descripcionP {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+
+/* .modulo{
+
+} */
+
+.descripcionMod1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.modal-video {
+    height: 44vw !important;
+    width: 55vw !important;
+}
+
+.info-modal {
+    height: 10vw;
+}
+
+.videoProd {
+    height: 97%;
+    ;
+}
+
+.btnComprartest {
+    margin-right: 5px;
+}
+
+.hidden {
+    opacity: 0 !important;
+}
+
+@media only screen and (max-width: 576px) {
+    .card-Prod {
+        width: 92%;
+    }
+    .imgProducto,
+    .imgProducto-2 {
+        height: 230px;
+    }
+    /* .product-item {
+        height: 370px;
+    } */
+    .modal-video {
+        height: 127vw !important;
+        width: 96vw !important;
+    }
+    .descripcionProducto {
+        -webkit-line-clamp: 4 !important;
+    }
+    .start-85 {
+        left: 85% !important;
+    }
+    .product-item {
+        width: 92% !important;
+    }
+    .nombreProd {
+        height: 55px;
+    }
+}
+
+
+/*tablet*/
+
+@media only screen and (min-width: 576px) {
+    .card-Prod {
+        width: 29%;
+    }
+    .imgProducto {
+        height: 140px;
+    }
+    .imgProducto-2 {
+        height: 140px !important;
+    }
+   /*  .product-item {
+        height: 320px;
+    } */
+    .modal-video {
+        height: 85vw !important;
+        width: 80vw !important;
+    }
+    .descripcionProducto {
+        -webkit-line-clamp: 4 !important;
+    }
+    .start-85 {
+        left: 90% !important;
+    }
+    .nombreProd {
+        height: 75px;
+    }
+    .nombre_curso h2 {
+        font-size: calc(100% *0.9) !important;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .modal-video {
+        height: 75vw !important;
+        width: 80vw !important;
+    }
+    .start-85 {
+        left: 75% !important;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    .card-Prod {
+        width: 20% !important;
+    }
+    .imgProducto,
+    .imgProducto-2 {
+        height: 200px !important;
+    }
+   /*  .product-item {
+        height: 340px;
+    } */
+    .modal-video {
+        height: 64vw !important;
+        width: 80vw !important;
+    }
+    .start-85 {
+        left: 78% !important;
+    }
+    .descripcionProducto {
+        -webkit-line-clamp: 3 !important;
+    }
+    .nombreProd {
+        height: 55px;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .nombre_curso h2 {
+        font-size: 15px !important;
+    }
+    .modal-video {
+        height: 44vw !important;
+        width: 55vw !important;
+    }
+}

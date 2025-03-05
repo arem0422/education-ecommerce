@@ -1,0 +1,70 @@
+.hero {
+    height: 95vh;
+    width: 100%;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-repeat: no-repeat;
+   /*  background-position: right; */
+   background-position: bottom
+}
+
+.banner-text {
+    color: white !important;
+    text-shadow: 0px 3px 6px rgba(43, 43, 43, 0.3);
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    color: #ffffff;
+    background-color: var(--bs-primario);
+    border-color: var(--bs-primario);
+}
+
+@media only screen and (max-width: 576px) {
+    .banner-text {
+        font-size: 1.8rem !important;
+        font-weight: 700 !important;
+    }
+    .hero {
+        background-attachment: inherit;
+    }
+
+}
+
+@media only screen and (min-width: 576px) {
+    .banner-text {
+        font-size: 3rem !important;
+        font-weight: 700 !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* .banner-text {
+        padding-top: 3rem;
+    } */
+}
+
+@media only screen and (min-width: 990px) {
+    .banner-text {
+        font-size: 2.5rem !important;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .banner-text {
+        font-size: 2rem !important;
+    }
+    .w-lg-normal {
+        width: unset !important;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .banner-text {
+        font-size: 3.3rem !important;
+    }
+}

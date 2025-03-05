@@ -1,0 +1,126 @@
+/* .container {
+    position: relative;
+    display: block;
+    height: 500px;
+    max-width: 1000px;
+    margin: auto;
+} */
+
+.nav__prev,
+.nav__next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #749393;
+}
+
+.fas {
+    background-color: rgba(76, 76, 76, 0.7);
+}
+
+.nav__prev:hover,
+.nav__next:hover {
+    color: #9AB6B6;
+}
+
+.nav__prev {
+    left: 10px;
+}
+
+.nav__next {
+    right: 10px;
+}
+
+.carousel {
+    margin: auto;
+    /* padding: 50px; */
+}
+
+.carousel .slick-current .carousel__slide {
+    transform: scale(1);
+    box-shadow: 0 0 30px 5px #E8E8E8;
+}
+
+.carousel .slick-current .carousel__slide-2 {
+    transform: scale(1);
+    box-shadow: 0 0 30px 5px #E8E8E8;
+}
+
+.carousel .slick-current .carousel__content {
+    display: block;
+}
+
+.carousel__slide {
+    /* width: 250px;
+    padding: 10px; */
+    margin: 0 30px;
+    border-radius: 20px;
+    margin: 30px auto;
+    box-shadow: 0 0 10px 5px #E8E8E8;
+    transform: scale(0.9);
+    transition: all 400ms linear;
+}
+
+.carousel__slide-2 {
+    /* width: 250px;
+    padding: 10px; */
+    margin: 0 30px;
+    border-radius: 20px;
+    margin: 30px 20px;
+    box-shadow: 0 0 10px 5px #E8E8E8;
+    transform: scale(1);
+    transition: all 400ms linear;
+}
+
+.carousel__visual {
+    /* height: 300px; */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.carousel__visual img {
+    width: 100%;
+}
+
+.carousel__content {
+    position: relative;
+}
+
+.carousel__content h1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+}
+
+.carousel__content a {
+    display: block;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: #464546;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+
+/* .carousel__content a:hover {
+    text-decoration: underline;
+}
+
+.carousel__content span {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    color: #9AB6B6;
+    transition: all 100ms linear;
+    cursor: pointer;
+}
+ */
+
+.carousel__content span.liked {
+    color: #C61608;
+}
