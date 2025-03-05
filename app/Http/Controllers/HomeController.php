@@ -62,11 +62,7 @@ class HomeController extends Controller
         $this->objUserNew = new Lmsalumnocampus;
         $this->UserLms = new UserLms;
 
-        if(env("TEST_COMPRA")){
-            WebpayPlus::configureForIntegration('597055555532', '579B532A7440BB0C9079DED94D31EA1615BACEB56610332264630D42D0A36B1C');
-        } else {
-            WebpayPlus::configureForProduction('597048160909', '7d6906a4-6ff2-48ad-ba2f-5ae83facc2ad');
-        }
+        WebpayPlus::configureForIntegration('597055555532', '579B532A7440BB0C9079DED94D31EA1615BACEB56610332264630D42D0A36B1C');
     }
 
     /**
