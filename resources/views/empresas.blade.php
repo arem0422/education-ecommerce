@@ -339,7 +339,7 @@
                 let g =$("#subject").val();
                 //console.log("submitea formulario");
                 //$("#Modalnegocios").modal('hide');
-                var url = "https://hooks.slack.com/services/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";
+                var url = "";
                 var text = "nombre - telefono - empresa - email - motivo ";
                 $.ajax({
                     type: 'POST',
